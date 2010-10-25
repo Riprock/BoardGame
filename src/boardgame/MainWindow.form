@@ -141,7 +141,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="moveLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="White&apos;s move"/>
+        <Property name="text" type="java.lang.String" value="Black&apos;s move"/>
       </Properties>
     </Component>
   </SubComponents>

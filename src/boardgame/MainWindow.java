@@ -19,7 +19,7 @@ public class MainWindow extends javax.swing.JFrame {
 
     /** Creates new form MainWindow */
     public MainWindow() {
-        this.currentColour = capturegame.board.Board.WHITE;
+        this.currentColour = capturegame.board.Board.BLACK;
         initComponents();
         this.errorLabel.setText("");
         final MainWindow mainWindow = this;
@@ -94,7 +94,7 @@ public class MainWindow extends javax.swing.JFrame {
         errorLabel.setForeground(new java.awt.Color(255, 0, 0));
         errorLabel.setText("Error");
 
-        moveLabel.setText("White's move");
+        moveLabel.setText("Black's move");
 
         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
