@@ -73,6 +73,11 @@ public class MainWindow extends javax.swing.JFrame {
                 submitButtonAndOthersActionPerformed(evt);
             }
         });
+        xText.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                focusOnY(evt);
+            }
+        });
 
         yLabel.setText("y:");
 
@@ -144,6 +149,10 @@ public class MainWindow extends javax.swing.JFrame {
     private void submitButtonAndOthersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonAndOthersActionPerformed
         makeMove();
     }//GEN-LAST:event_submitButtonAndOthersActionPerformed
+
+    private void focusOnY(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_focusOnY
+        this.yText.requestFocus();
+    }//GEN-LAST:event_focusOnY
 
     private void makeMove() {
         Board board = this.boardView.getBoard();
