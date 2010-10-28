@@ -13,9 +13,9 @@ package boardgame;
 import capturegame.board.*;
 import java.util.Stack;
 /**
- * The Main (and only) Window of the Go game
+ * The Main (and only) Window of the Go game.
  *
- * @author fergalhainey
+ * @author Fergal Hainey
  */
 public class MainWindow extends javax.swing.JFrame {
 

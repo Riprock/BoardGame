@@ -6,8 +6,9 @@
 package boardgame;
 
 /**
+ * Represents the actions of one move. Useful for undo and redo.
  *
- * @author fergalhainey
+ * @author Fergal Hainey
  */
 public class Move {
     private int x;
